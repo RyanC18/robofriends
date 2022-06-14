@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Hello from './Hello';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import Bye from './Bye';
@@ -10,8 +10,7 @@ import Bye from './Bye';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello greeting={'Hello' + 'React Ninja'}/>
-    <Bye goodbye={'Goodbye ' + 'React Ninja'}/>
+    <Card />
   </React.StrictMode>
 );
 
